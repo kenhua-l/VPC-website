@@ -1,8 +1,44 @@
 body{
 	background: #EFEFEF;
 }
+h2{
+	font-family: 'Indie Flower', cursive;
+	font-size: 26px;
+	font-weight: 900;
+	color: black;
+	text-shadow: 0 0 0.8em #FFFFFF, 0 0 0.8em #FFFFFF, 0 0 0.8em #FFFFFF;
+}
+p{
+	font-family: 'Indie Flower', cursive;
+	font-size: 22px;
+	color: #FFFFFF;
+	text-shadow: 0 0 0.8em #000000, 0 0 0.8em #000000,0 0 0.8em #000000;
+}
+#logo{
+	position: fixed;
+	/*max-width: 300px;*/
+	float: left;
+	padding-bottom: 10px;
+}
+.btn-navbar{
+	padding: 10px;
+	position: center;
+}
+.btn-navbar a{
+	color: black;
+	font-family: 'Indie Flower', cursive;
+	font-size: 26px;
+	text-shadow: 0 0 0.2em #BFF6FF, 0 0 0.2em #BFF6FF,0 0 0.2em #BFF6FF;
+}
+
+.btn-navbar > a:hover{
+	text-shadow: 0 0 0.8em #BFF6FF, 0 0 0.8em #BFF6FF,0 0 0.8em #BFF6FF;
+	text-decoration: underline;
+}
+
 .parallax-container{
-    padding: 400px 200px; /* This gives our headings a bit of breathing room */
+    padding: 400px 200px;  
+    /*This gives our headings a bit of breathing room */
     background-size: 1125px 1800px;
 }
 .navbar{
