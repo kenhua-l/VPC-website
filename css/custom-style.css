@@ -37,7 +37,7 @@ p{
 }
 
 .parallax-container{
-    padding: 400px 200px;  
+    padding: 400px 200px;
     /*This gives our headings a bit of breathing room */
     background-size: 1125px 1800px;
 }
@@ -49,14 +49,14 @@ p{
 	position: fixed center;
 }
 .js-background-1 {
-    background: transparent url("../images/green.jpg") center 0 repeat;
+    background: transparent url("../images/about.png") center 0 repeat;
 }
 .js-background-2 {
-    background: transparent url("../images/blue.jpg") center 0 repeat;
+    background: transparent url("../images/team.png") center 0 repeat;
 }
 .js-background-3 {
-    background: transparent url("../images/red.jpg") center 0 repeat;
+    background: transparent url("../images/portfolio.png") center 0 repeat;
 }
 .js-background-4 {
-    background: transparent url("../images/yellow.jpg") center 0 repeat;
+    background: transparent url("../images/contact.png") center 0 repeat;
 }
