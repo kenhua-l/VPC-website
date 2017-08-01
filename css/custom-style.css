@@ -1,6 +1,9 @@
 body{
 	background: #EFEFEF;
 }
+body, html{
+    height: 100%;
+}
 h2{
 	font-family: 'Indie Flower', cursive;
 	font-size: 26px;
@@ -59,4 +62,56 @@ p{
 }
 .js-background-4 {
     background: transparent url("../images/contact.png") center 0 repeat;
+}
+.aboutSection {
+    /* The image used */
+    background-image: url("../images/about.png");
+
+    /* Full height */
+    height: 100%;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.teamSection {
+    /* The image used */
+    background-image: url("../images/team.png");
+
+    /* Full height */
+    height: 100%;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.portfolioSection {
+    /* The image used */
+    background-image: url("../images/portfolio.png");
+
+    /* Full height */
+    height: 100%;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.contactSection {
+    /* The image used */
+    background-image: url("../images/contact.png");
+
+    /* Full height */
+    height: 100%;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
