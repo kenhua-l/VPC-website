@@ -1,29 +1,38 @@
+/* Written by Ken Hua Liew 2017*/
 body, html{
     height: 100%;
 }
 body {
 	background-color: black;
 }
+
+/* Most types are h2 */
 h2 {
 	font-family: 'Montserrat', sans-serif;
 	color: white;
 	padding-left: 5px;
 }
-.img-responsive-custom {
+
+/* Social media links font is h4 */
+h4 {
+	font-family: 'Montserrat', sans-serif;
+	color: white;
+}
+
+/* so it responds to height instead */
+#img-responsive-custom {
 	height:100%;
 	width: auto;
 }
 
-.about-divider {
-	height: 80%;
-}
-.title{
+/* Onlu used in About section divider */
+#title{
 	flex:8;
 	display: flex;
 	align-items: center;
 	justify-content: flex-start;
 }
-.logo {
+#logo {
 	flex:4;
 	height:100%;
 	display: flex;
@@ -31,9 +40,11 @@ h2 {
 	justify-content: flex-end;
 }
 
-.center {
+/* common classes */
+.divider-center {
 	display: flex;
 	flex:1;
+	height: 80%;
   align-items: center;
 	justify-content: center;
 }
@@ -44,10 +55,9 @@ h2 {
   align-items: center;
 	justify-content: center;
 }
+/* Parallax scrolling effect */
 .section {
-	/* Full height */
 	height: 75%;
-	/* Create the parallax scrolling effect */
 	background-attachment: fixed;
 	background-position: center;
 	background-repeat: no-repeat;
