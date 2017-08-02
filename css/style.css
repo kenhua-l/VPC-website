@@ -7,107 +7,61 @@ body {
 h2 {
 	font-family: 'Montserrat', sans-serif;
 	color: white;
-
+	padding-left: 5px;
 }
-/*h2{
-	font-family: 'Indie Flower', cursive;
-	font-size: 26px;
-	font-weight: 900;
-	color: black;
-	text-shadow: 0 0 0.8em #FFFFFF, 0 0 0.8em #FFFFFF, 0 0 0.8em #FFFFFF;
-}
-p{
-	font-family: 'Indie Flower', cursive;
-	font-size: 22px;
-	color: #FFFFFF;
-	text-shadow: 0 0 0.8em #000000, 0 0 0.8em #000000,0 0 0.8em #000000;
-}
-#logo{
-	position: fixed;
-	float: left;
-	padding-bottom: 10px;
-}
-.btn-navbar{
-	padding: 10px;
-	position: center;
-}
-.btn-navbar a{
-	color: black;
-	font-family: 'Indie Flower', cursive;
-	font-size: 26px;
-	text-shadow: 0 0 0.2em #BFF6FF, 0 0 0.2em #BFF6FF,0 0 0.2em #BFF6FF;
+.img-responsive-custom {
+	height:100%;
+	width: auto;
 }
 
-.btn-navbar > a:hover{
-	text-shadow: 0 0 0.8em #BFF6FF, 0 0 0.8em #BFF6FF,0 0 0.8em #BFF6FF;
-	text-decoration: underline;
+.about-divider {
+	height: 80%;
+}
+.title{
+	flex:8;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+}
+.logo {
+	flex:4;
+	height:100%;
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
 }
 
-.navbar{
-	padding-bottom: 10px;
-	padding-top: 10px;
-	padding-right: 10px;
-	background: #EFEFEF;
-	position: fixed center;
-}*/
+.center {
+	display: flex;
+	flex:1;
+  align-items: center;
+	justify-content: center;
+}
 .divider {
-	height: 20%;
+	height: 25%;
 	background-color: black;
+	display: flex;
+  align-items: center;
+	justify-content: center;
 }
-.divider::before {
-	height: 10%;
+.section {
+	/* Full height */
+	height: 75%;
+	/* Create the parallax scrolling effect */
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
-.divider::after {
-	height: 10%;
-}
-.aboutSection {
-    /* The image used */
+#about {
     background-image: url("../images/about.png");
-    /* Full height */
-    height: 80%;
-
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
 }
-.teamSection {
-    /* The image used */
+#team {
     background-image: url("../images/team.png");
-
-    /* Full height */
-    height: 80%;
-
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
 }
-.portfolioSection {
-    /* The image used */
+#portfolio {
     background-image: url("../images/portfolio.png");
-
-    /* Full height */
-    height: 80%;
-
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
 }
-.contactSection {
-    /* The image used */
+#contact {
     background-image: url("../images/contact.png");
-
-    /* Full height */
-    height: 80%;
-
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
 }
